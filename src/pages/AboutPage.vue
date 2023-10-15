@@ -13,7 +13,7 @@
     <div class="column q-gutter-y-lg items-center text-center q-mt-lg">
       <span class="text-h5 text-uppercase">a little bit about me</span>
       <div class="my-custom-div">
-        <q-img fit="fill" src="src/assets/my-picture.png" height="255px" />
+        <q-img fit="fill" src="../assets/my-picture.png" height="255px" />
       </div>
       <div class="text-subtitle1">
         I am currently in my fourth year at
