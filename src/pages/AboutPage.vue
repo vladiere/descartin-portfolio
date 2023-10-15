@@ -38,25 +38,59 @@
           and inventing useless stuffs</span
         >
         <div
-          class="col row q-gutter-x-lg items-center q-pa-md bg-accent text-dark"
+          :class="
+            Platform.is.mobile
+              ? 'col column q-gutter-y-md content-center bg-accent text-dark q-py-md'
+              : 'col row q-gutter-x-lg items-center q-pa-md bg-accent text-dark'
+          "
         >
-          <div class="col column q-gutter-y-sm items-center">
+          <div
+            :class="
+              Platform.is.mobile
+                ? 'col row q-gutter-x-md items-center'
+                : 'col column q-gutter-y-sm items-center'
+            "
+          >
             <img src="src/assets/computer-science.png" style="width: 50px" />
             <span>Web Developer</span>
           </div>
-          <div class="col column q-gutter-y-sm items-center">
+          <div
+            :class="
+              Platform.is.mobile
+                ? 'col row q-gutter-x-md items-center'
+                : 'col column q-gutter-y-sm items-center'
+            "
+          >
             <img src="src/assets/guitar.png" style="width: 50px" />
             <span>Guitar</span>
           </div>
-          <div class="col column q-gutter-y-sm items-center">
+          <div
+            :class="
+              Platform.is.mobile
+                ? 'col row q-gutter-x-md items-center'
+                : 'col column q-gutter-y-sm items-center'
+            "
+          >
             <img src="src/assets/martial-arts.png" style="width: 50px" />
             <span>Exercise</span>
           </div>
-          <div class="col column q-gutter-y-sm items-center">
+          <div
+            :class="
+              Platform.is.mobile
+                ? 'col row q-gutter-x-md items-center'
+                : 'col column q-gutter-y-sm items-center'
+            "
+          >
             <img src="src/assets/open-book.png" style="width: 50px" />
             <span>Reading Books</span>
           </div>
-          <div class="col column q-gutter-y-sm items-center">
+          <div
+            :class="
+              Platform.is.mobile
+                ? 'col row q-gutter-x-md items-center'
+                : 'col column q-gutter-y-sm items-center'
+            "
+          >
             <img src="src/assets/inventor.png" style="width: 50px" />
             <span>Inventor</span>
           </div>
@@ -66,8 +100,9 @@
   </q-page>
 </template>
 
-<script lang="ts">
+<script setup lang="ts">
 import { defineComponent } from 'vue';
+import { Platform } from 'quasar';
 
 defineComponent({
   name: 'AboutPage',
