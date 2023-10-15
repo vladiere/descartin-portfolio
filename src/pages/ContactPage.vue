@@ -5,24 +5,28 @@
     <q-form class="colum full-width q-pa-lg q-gutter-y-md">
       <span>Email Address</span>
       <q-input
+        v-model="form.email_address"
         standout="bg-accent text-secondary"
         label-color="secondary"
         label="Email Address"
       />
       <span>Fullname</span>
       <q-input
+        v-model="form.fullname"
         standout="bg-accent text-secondary"
         label-color="secondary"
         label="Fullname"
       />
       <span>Address</span>
       <q-input
+        v-model="form.address"
         standout="bg-accent text-secondary"
         label-color="secondary"
         label="Address"
       />
       <span>Message</span>
       <q-input
+        v-model="form.message"
         type="textarea"
         standout="bg-accent text-secondary"
         label-color="secondary"
@@ -38,10 +42,17 @@
   </q-page>
 </template>
 
-<script lang="ts">
-import { defineComponent } from 'vue';
+<script setup lang="ts">
+import { defineComponent, ref } from 'vue';
 
 defineComponent({
   name: 'ContactPage',
+});
+
+const form = ref({
+  email_address: '',
+  fullname: '',
+  address: '',
+  message: '',
 });
 </script>
