@@ -10,7 +10,7 @@
     <span>Hi! Hola! Kumosta!</span>
     <span class="text-h3">Welcome</span>
     <div class="column bg-white my-custom-gif content-center">
-      <q-img src="src/assets/dog-hi.gif" fit="contain" />
+      <q-img src="../assets/dog-hi.gif" fit="contain" />
     </div>
   </q-page>
 </template>

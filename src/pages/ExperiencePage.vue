@@ -25,21 +25,21 @@
         >Some technologies I've worked with:</span
       >
       <div class="row q-gutter-x-md justify-center image-collect">
-        <img src="src/assets/html-5.png" alt="" />
-        <img src="src/assets/css-3.png" alt="" />
-        <img src="src/assets/bootstrap.svg" alt="" />
-        <img src="src/assets/js.png" alt="" />
-        <img src="src/assets/mongodb.png" alt="" />
-        <img src="src/assets/java.png" alt="" />
-        <img src="src/assets/mysql.png" alt="" />
-        <img src="src/assets/postgresql.svg" alt="" />
-        <img src="src/assets/nodejs.png" alt="" />
-        <img src="src/assets/sass.png" alt="" />
-        <img src="src/assets/python.png" alt="" />
-        <img src="src/assets/typescript.png" alt="" />
-        <img src="src/assets/vuejs.png" alt="" />
-        <img src="src/assets/jquery.gif" alt="" />
-        <img src="src/assets/quasar.png" alt="" />
+        <img src="../assets/html-5.png" alt="" />
+        <img src="../assets/css-3.png" alt="" />
+        <img src="../assets/bootstrap.svg" alt="" />
+        <img src="../assets/js.png" alt="" />
+        <img src="../assets/mongodb.png" alt="" />
+        <img src="../assets/java.png" alt="" />
+        <img src="../assets/mysql.png" alt="" />
+        <img src="../assets/postgresql.svg" alt="" />
+        <img src="../assets/nodejs.png" alt="" />
+        <img src="../assets/sass.png" alt="" />
+        <img src="../assets/python.png" alt="" />
+        <img src="../assets/typescript.png" alt="" />
+        <img src="../assets/vuejs.png" alt="" />
+        <img src="../assets/jquery.gif" alt="" />
+        <img src="../assets/quasar.png" alt="" />
       </div>
     </div>
   </q-page>

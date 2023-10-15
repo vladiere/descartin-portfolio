@@ -51,7 +51,7 @@
                 : 'col column q-gutter-y-sm items-center'
             "
           >
-            <img src="src/assets/computer-science.png" style="width: 50px" />
+            <img src="../src/assets/computer-science.png" style="width: 50px" />
             <span>Web Developer</span>
           </div>
           <div
@@ -61,7 +61,7 @@
                 : 'col column q-gutter-y-sm items-center'
             "
           >
-            <img src="src/assets/guitar.png" style="width: 50px" />
+            <img src="../src/assets/guitar.png" style="width: 50px" />
             <span>Guitar</span>
           </div>
           <div
@@ -71,7 +71,7 @@
                 : 'col column q-gutter-y-sm items-center'
             "
           >
-            <img src="src/assets/martial-arts.png" style="width: 50px" />
+            <img src="../src/assets/martial-arts.png" style="width: 50px" />
             <span>Exercise</span>
           </div>
           <div
@@ -81,7 +81,7 @@
                 : 'col column q-gutter-y-sm items-center'
             "
           >
-            <img src="src/assets/open-book.png" style="width: 50px" />
+            <img src="../src/assets/open-book.png" style="width: 50px" />
             <span>Reading Books</span>
           </div>
           <div
@@ -91,7 +91,7 @@
                 : 'col column q-gutter-y-sm items-center'
             "
           >
-            <img src="src/assets/inventor.png" style="width: 50px" />
+            <img src="../src/assets/inventor.png" style="width: 50px" />
             <span>Inventor</span>
           </div>
         </div>
