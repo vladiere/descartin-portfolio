@@ -66,32 +66,6 @@
           target="_blank"
         />
       </q-card>
-      <q-card
-        :class="Platform.is.mobile ? 'my-card' : 'my-card q-ma-md'"
-        :style="cardStyle"
-      >
-        <q-img
-          src="https://cpclibrary.online/assets/librarylogo.9f8a6da7.png"
-          height="100%"
-        >
-          <div class="absolute-bottom">
-            <div class="text-h6">CPC Library</div>
-            <div class="text-caption">On Progress</div>
-          </div>
-        </q-img>
-        <q-btn
-          flat
-          icon="mdi-web"
-          href="https://cpclibrary.online/"
-          target="_blank"
-        />
-        <q-btn
-          flat
-          icon="mdi-github"
-          href="https://github.com/vladiere/library-cpc-system"
-          target="_blank"
-        />
-      </q-card>
     </div>
   </q-page>
 </template>
