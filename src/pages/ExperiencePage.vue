@@ -25,22 +25,23 @@
         >Some technologies I've worked with:</span
       >
       <div class="row q-gutter-x-md justify-center image-collect">
-        <img src="~assets/html-5.png" alt="" />
-        <img src="~assets/css-3.png" alt="" />
-        <img src="~assets/bootstrap.png" alt="" />
-        <img src="~assets/js.png" alt="" />
-        <img src="~assets/mongodb.png" alt="" />
-        <img src="~assets/java.png" alt="" />
-        <img src="~assets/mysql.png" alt="" />
-        <img src="~assets/postgresql.png" alt="" />
-        <img src="~assets/nodejs.png" alt="" />
-        <img src="~assets/sass.png" alt="" />
-        <img src="~assets/python.png" alt="" />
-        <img src="~assets/typescript.png" alt="" />
-        <img src="~assets/vuejs.png" alt="" />
-        <img src="~assets/jquery.gif" alt="" />
-        <img src="~assets/quasar.png" alt="" />
-        <img src="~assets/laravel.svg" alt="" />
+        <img src="~assets/html-5.png" alt="html-5" title="html-5"/>
+        <img src="~assets/css-3.png" alt="css-3" title="css-3"/>
+        <img src="~assets/bootstrap.png" alt="bootstrap" title="bootstrap"/>
+        <img src="~assets/js.png" alt="javascript" title="javascript"/>
+        <img src="~assets/mongodb.png" alt="mongoose" title="mongoose"/>
+        <img src="~assets/java.png" alt="java" title="java"/>
+        <img src="~assets/mysql.png" alt="mysql" title="mysql"/>
+        <img src="~assets/postgresql.png" alt="postgresql" title="postgresql"/>
+        <img src="~assets/nodejs.png" alt="nodejs" title="nodejs"/>
+        <img src="~assets/sass.png" alt="sass" title="sass"/>
+        <img src="~assets/python.png" alt="python" title="python"/>
+        <img src="~assets/typescript.png" alt="typescript" title="typescript"/>
+        <img src="~assets/vuejs.png" alt="vuejs" title="vuejs"/>
+        <img src="~assets/jquery.gif" alt="jquery" title="jquery"/>
+        <img src="~assets/quasar.png" alt="quasar" title="quasar"/>
+        <img src="~assets/laravel.svg" alt="laravel" title="laravel"/>
+        <img src="~assets/firebase.png" alt="firebase" title="firebase" />
       </div>
     </div>
   </q-page>
