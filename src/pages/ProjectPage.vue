@@ -50,11 +50,11 @@
         :style="cardStyle"
       >
         <q-img
-          src="https://media.istockphoto.com/id/675298456/photo/woman-talking-with-alphabet-letters-coming-out-of-her-mouth-communication-concept.webp?b=1&s=612x612&w=0&k=20&c=iT_LHIU5pCTuqy-NfLJFkpUmZs4DF7yLC7ZQ2ZBBW2U="
+          src="https://images.pexels.com/photos/296649/pexels-photo-296649.jpeg?auto=compress&cs=tinysrgb&w=400="
           height="100%"
         >
           <div class="absolute-bottom">
-            <div class="text-h6">Text to Speech</div>
+            <div class="text-h6">Gallery with Firebase</div>
             <div class="text-caption">On Progress</div>
           </div>
         </q-img>
@@ -62,7 +62,7 @@
         <q-btn
           flat
           icon="mdi-github"
-          href="https://github.com/vladiere/speech-recognition"
+          href="https://github.com/vladiere/gallery-app"
           target="_blank"
         />
       </q-card>
@@ -79,7 +79,7 @@ defineComponent({
 });
 
 const cardStyle = ref({
-  width: Platform.is.mobile ? '100%' : '15vw',
+  width: Platform.is.mobile ? '100%' : '100%',
   height: '30vh',
   marginBottom: '40px',
 });
