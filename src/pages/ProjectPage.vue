@@ -54,11 +54,11 @@
           height="100%"
         >
           <div class="absolute-bottom">
-            <div class="text-h6">Gallery with Firebase</div>
+            <div class="text-h6">Batman Gallery with Firebase</div>
             <div class="text-caption">On Progress</div>
           </div>
         </q-img>
-        <q-btn flat icon="mdi-web" target="_blank" />
+        <q-btn flat icon="mdi-web" target="_blank" href="https://batman-gallery.netlify.app/" />
         <q-btn
           flat
           icon="mdi-github"
